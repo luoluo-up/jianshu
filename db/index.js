@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 module.exports = async () => {
   try {
-    await mongoose.connect("mongodb://localhost:27017/jianshu", {
+    await mongoose.connect("mongodb://8.134.92.247:27017/jianshu", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
